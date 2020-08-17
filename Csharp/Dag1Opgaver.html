@@ -1,0 +1,52 @@
+﻿<h2>&Oslash;velse 1</h2>
+<p>Hvis du ikke har Windows p&aring; din laptop, s&aring; er det tid at f&aring; installeret dette operativ system. Licens hertil finder du p&aring; linket&nbsp;<a href="https://azure.microsoft.com/email/?destination=https%3A%2F%2Faka.ms%2Fdevtoolsforteaching&amp;p=bT1kMDRmYmRmMS1jODI3LTQ0ODgtOWI3ZC1kNDZlODM0MjY0ZmYmdT1hZW8mbD1kZXZ0b29sc2ZvcnRlYWNoaW5n">https://aka.ms/devtoolsforteaching</a> hvor du kan logge ind med din skole konto klikke dig frem til gratis Windows licens.</p>
+<p><img src="https://eaaa.instructure.com/courses/11074/files/477319/preview" alt="WindowsLicens.PNG" data-api-endpoint="https://eaaa.instructure.com/api/v1/courses/11074/files/477319" data-api-returntype="File" /></p>
+<p>Du kan v&aelig;lge mellem:</p>
+<ul>
+    <li>Windows som eneste operativsystem p&aring; din computer.</li>
+    <li>Windows blandt de mulige opstartssystemer p&aring; din computer via dual boot.</li>
+    <li>Virtuelt milj&oslash; med Windows installation.<br />P&aring; Linux har du mulighed for at installere Windows i f.eks. VirtualBox eller KVM virtuelt milj&oslash;.<br />P&aring; Mac-computer kan du f.eks. v&aelig;lge VirtualBox, Bootcamp eller Parallels som virtuelt milj&oslash; for installation af Windows.&nbsp;&nbsp;</li>
+</ul>
+<h2>&Oslash;velse 2</h2>
+<p>Installing Git by going here <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<h2>&Oslash;velse 3</h2>
+<p>Install&eacute;r Visual Studio Enterprise</p>
+<ol>
+    <li>G&aring; til <a href="https://aka.ms/devtoolsforteaching">https://aka.ms/devtoolsforteaching</a></li>
+    <li>Log ind med din skole-login</li>
+    <li>V&aelig;lg Visual Studio</li>
+    <li>Gener&eacute;r product key</li>
+    <li>Klik download Visual Studio Enterprise Installer</li>
+    <li>Klik install&eacute;r</li>
+</ol>
+<p>V&aelig;lg under &rdquo;.NET desktop development&rdquo; installering af f&oslash;lgende komponenter:</p>
+<p><img src="https://eaaa.instructure.com/courses/11074/files/477404/preview" alt="VisualStudioComponents.png" width="452" height="1053" data-api-endpoint="https://eaaa.instructure.com/api/v1/courses/11074/files/477404" data-api-returntype="File" /></p>
+<h2>&Oslash;velse 4</h2>
+<p>Lav en konsol applikation i Visual studio</p>
+<p>(Brug <em>&rdquo;Console App (.Net Framework)&rdquo;</em> template)</p>
+<p>F&aring; den til at udskrive &rdquo;Hello World&rdquo; til konsollen.&nbsp;</p>
+<pre>using System;<br />using System.Collections.Generic;<br />using System.Linq;<br />using System.Text;<br />using System.Threading.Tasks;<br /><br />namespace ConsoleApp1<br />{<br /> &nbsp;&nbsp; class Program<br /> &nbsp;&nbsp; {<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; static void Main(string[] args)<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine("Hello world!");<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.ReadKey();<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br /> &nbsp;&nbsp; }<br />}</pre>
+<p>Udvid nu applikationen med lidt mere avanceret string output. Det hele er forklaret trinvist, n&aring;r du f&oslash;lger denne tutorial <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/hello-world">https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/hello-world</a>&nbsp;</p>
+<p>K&oslash;r b&aring;de fra Visual studio og et konsol vindue. Du finder det eksekverbare program i bin\Debug eller bin\Release folderen under dit projekt.</p>
+<h1>&Oslash;velse 5</h1>
+<p>Make a new ConsoleApplication and a static method, Max, in the Program-class. It should be possible to call the method, Max, with a random number of double-parameter as shown in the code. Complete the declaration of Max.</p>
+<pre>  class Program<br />  {<br /> &nbsp;&nbsp; public static double Max(...)<br /> &nbsp;&nbsp; {<br />          .......<br /> &nbsp;&nbsp; }<br />&nbsp;&nbsp;&nbsp; static void Main(string[] args)<br /><br /> &nbsp;&nbsp; {<br /> &nbsp;&nbsp;&nbsp;&nbsp; double m1 = Max(28.5, 17.2);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double m2 = Max(4.0, 10.8, 34.25, 2.0, 23.6);<br /><br /> &nbsp;&nbsp;&nbsp;&nbsp; Console.WriteLine(m1+" "+m2);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Console.ReadLine();<br /><br /> &nbsp;&nbsp; }<br />&nbsp; }</pre>
+<p>The program prints</p>
+<pre>28.5 34.25</pre>
+<h2>&Oslash;velse 6</h2>
+<p>K&oslash;r applikation fra terminalen kommandoprompt.</p>
+<p>K&oslash;r applikationen fra foreg&aring;ende &oslash;velse i terminalen.</p>
+<p>Hvorfor er dette vigtigt?</p>
+<h2>&Oslash;velse 7</h2>
+<p>Opret og k&oslash;r et WPF-program via Visual Studio create new project.</p>
+<p>Eksperimenter med at &rdquo;tegne&rdquo; brugergr&aelig;nseflader ved hj&aelig;lp af skabelonen &rdquo;Windows Presentation Foundation&rdquo; &ndash; undlad at skrive koden selv. Giv solution, projekt, dialogfiler og program fornuftige navne.</p>
+<p>Som minimum skal I pr&oslash;ve at &aelig;ndre navnet og st&oslash;rrelsen p&aring; et vindue, inds&aelig;tte en eller flere knapper, checkboxe, en listbox, labels og mindst en textbox. Eksperimenter med h&oslash;jre-/venstrestillet tekst.</p>
+<p>Hvis I vil lave flere dialoger, s&aring; g&oslash;r det i separate applikationer &ndash; vi kommer til navigering senere.</p>
+<p>N&aring;r I har &rdquo;tegnet&rdquo;, s&aring; fors&oslash;g at afvikle applikationen / applikationerne.</p>
+<p>Virker layout i den valgte visning, i maksimeret visning, med brugervalgte dimensioner?</p>
+<h2>&Oslash;velse 8</h2>
+<p>Skriv en lille lommeregner konsolapplikation. Id&eacute;en er at den skal modtage input om regneoperation og parametre fra brugeren, hvorefter applikationen udregner resultatet.</p>
+<p>Du kan f&oslash;lge denne tutorial til l&oslash;sning af opgaven: <a href="https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-console?view=vs-2019">https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-console?view=vs-2019</a>&nbsp;</p>
+<h2>&Oslash;velse 9</h2>
+<p>Gem dine projekter fra &oslash;velserne i et git-repository, s&aring; bliver det nemt for dig at finde rundt i gammel kode og udveksle kode med dine kammerater. Du kan bruge GitHub eller en anden udbyder efter dit valg.</p>
+<p>&nbsp;</p>

@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B577D19E-E3C2-4BD3-A6AB-3A5FA2E9949F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opgave4_ConsoleApp1", "ConsoleApp1\Opgave4_ConsoleApp1.csproj", "{B577D19E-E3C2-4BD3-A6AB-3A5FA2E9949F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{FD8C38FC-7B8F-41E4-8BC7-5CC6970EF428}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgave7_WPF", "WpfApp1\Opgave7_WPF.csproj", "{FD8C38FC-7B8F-41E4-8BC7-5CC6970EF428}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dag1", "Dag1", "{1A501DAD-6EFA-4077-91D4-6E30B797D35D}"
+	ProjectSection(SolutionItems) = preProject
+		Dag1Opgaver.html = Dag1Opgaver.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
